@@ -1,1 +1,3 @@
-select * from products;
+SELECT * FROM products 
+LEFT JOIN productsCategories on products.id = productsCategories.productId
+LEFT JOIN categories ON productsCategories.categoryId = categories.id;
