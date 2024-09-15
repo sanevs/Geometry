@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ShapesApp
+﻿namespace ShapesApp
 {
     public interface IShape
     {
-        int calcSquare();
+        int CalcSquare();
     }
 }
